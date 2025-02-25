@@ -1,15 +1,15 @@
 export function validation() {
-    
-    document.getElementById('email').addEventListener('input', function(event) {
+    const emailInput = document.getElementById('email');
+    const emailError = document.getElementById('emailError');
+
+    emailInput.addEventListener('input', function(event) {
         const email = event.target.value;
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const emailError = document.getElementById('emailError');
-    
+
         if (!emailPattern.test(email)) {
             emailError.textContent = 'Correo electrónico no válido';
         } else {
             emailError.textContent = '';
         }
     });
-    
 }
