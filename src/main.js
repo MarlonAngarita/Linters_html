@@ -1,6 +1,6 @@
-import confirmation from './modules/confirmation';
-import togglePassword from './modules/togglePassword';
-import validation from './modules/validation';
+import confirmation from './js/modules/confirmation';
+import togglePassword from './js/modules/togglePassword';
+import validation from './js/modules/validation';
 
 document.addEventListener('DOMContentLoaded', () => {
   confirmation();
