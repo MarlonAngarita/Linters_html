@@ -61,8 +61,6 @@
 ### Key Features <a name="key-features"></a>
 
 - **[HTML & CSS Best practices]**
-- **[USER COMMENTS]**
-- **[USER RESERVATIONS]**
 - **[Webpack Bundling ]**
 - **[Express Server to handle routing]**
 - **[Bash Script to automate deployment]**
@@ -95,7 +93,6 @@ To run this project  you need the following tools:
 - [Git and GitHub ]
 - [Nodejs ]
 - [Express ]
-- [openssl to generate self signed certificates ]
 - [Webpack Installation ]
 
 
@@ -174,7 +171,7 @@ Express
 To run locally run the following command:
 ## Development mode
 ```sh
-    npm run build-dev   
+    npm run build
 ```
 
 
